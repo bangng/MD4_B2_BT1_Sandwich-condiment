@@ -14,7 +14,7 @@
 <body>
 <h1>List Condiments are chosen</h1>
 <c:forEach var="cd" items="${list}">
-    <h2>${cd.condiment}</h2>
+    <h2>${cd}</h2>
 </c:forEach>
 <a href="/">Back</a>
 
